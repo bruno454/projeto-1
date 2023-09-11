@@ -1,0 +1,21 @@
+ls ou dir = lista arquivos e diretórios;
+cd = entra na pasta selecionada;
+touch = cria arquivos;
+clear = limpa o terminal;
+rm = remover o arquivo;
+cd ../ = voltar uma pasta;
+rmdir = remove um diretório;
+mkdir = cria um diretório;
+git commit -m"" = passa uma mensagem para o terminal;
+git log = mostra o commit feito;
+git log --oneline = mostra o commit condensado;
+git ignore = ignora arquivos;
+
+Tipos de descommit;
+Checkout = Volta o commit sem perder os dados futuros;
+git checkout master = volta o commit;
+
+Revert = Volta e reverte o commit, mas altera o histórico; 
+
+
+Reset = Reseta todo o commit, mas deixa alterações salvas, porém se usar --hard apaga TUDO;
