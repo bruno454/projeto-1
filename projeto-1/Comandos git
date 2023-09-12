@@ -1,0 +1,54 @@
+    Configuração Inicial:
+        git config --global user.name "Seu Nome": Define o nome do usuário.
+        git config --global user.email "seu@email.com": Define o email do usuário.
+
+    Iniciar um Repositório:
+        git init: Inicia um novo repositório Git em um diretório.
+
+    Clonar um Repositório:
+        git clone <URL-do-repositório>: Clona um repositório Git existente para o seu computador.
+
+    Básico de Controle de Versão:
+        git status: Mostra o estado atual do seu repositório.
+        git add <arquivo>: Adiciona um arquivo ao índice (staging area).
+        git reset <arquivo>: Remove um arquivo da staging area.
+        git commit -m "Mensagem do Commit": Registra as mudanças no repositório com uma mensagem de commit.
+
+    Histórico:
+        git log: Mostra o histórico de commits.
+        git log --oneline: Mostra o histórico de commits de forma resumida.
+        git diff: Mostra as diferenças entre os arquivos modificados e as versões anteriores.
+
+    Branches:
+        git branch: Lista todas as branches no repositório.
+        git branch <nome-da-branch>: Cria uma nova branch.
+        git checkout <nome-da-branch>: Muda para uma branch existente.
+        git merge <nome-da-branch>: Mescla uma branch com a branch atual.
+        git branch -d <nome-da-branch>: Deleta uma branch.
+
+    Remoto:
+        git remote add origin <URL-do-repositório-remoto>: Conecta o repositório local a um repositório remoto.
+        git push -u origin <nome-da-branch>: Envia os commits para o repositório remoto.
+        git pull: Puxa as mudanças do repositório remoto para o local.
+
+    Recuperação e Desfazimento:
+        git checkout -- <arquivo>: Desfaz as mudanças não confirmadas em um arquivo.
+        git reset HEAD <arquivo>: Desfaz a adição (staging) de um arquivo.
+        git revert <hash-do-commit>: Cria um novo commit que desfaz as mudanças de um commit específico. Usando --hard apago tudo
+
+    Outros Comandos Úteis:
+        git clone <URL-do-repositório>: Clona um repositório remoto para o diretório atual.
+        git fetch: Puxa as atualizações do repositório remoto sem mesclá-las.
+        git stash: Armazena temporariamente as mudanças não confirmadas.
+        git cherry-pick <hash-do-commit>: Aplica as mudanças de um commit específico em outra branch.
+
+    ls/dir - lista arquivos e diretórios;
+    cd - acessa diretórios;
+    touch - cria arquivos;
+    clear - limpa o terminal;
+    rm - remove um arquivo;
+    cd .. - volta uma pasta anterior;
+    rmdir - remove um diretório;
+    mkdir - cria um diretório;
+     
+
